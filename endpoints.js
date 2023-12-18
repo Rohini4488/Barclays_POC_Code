@@ -16,15 +16,15 @@
 
 export const GATEWAY = {
   region: 'eu-west-2',
-  apiGWId: 'gyjhhge696',
+  apiGWId: '<id>',
 };
 
 const ENDPOINTS = {
-  contactFlowId: '5d6bb1c4-7e83-455e-a1c5-831d08213210',
-  instanceId: 'bbde73d5-4319-43ba-887d-6c75a87b41d6',
+  contactFlowId: 'XXXX-XXXX-XXXX-XXXX',
+  instanceId: 'XXXX-XXXXX-XXXXX-XXXXX',
   region: GATEWAY.region,
-  apiGatewayEndpoint: `https://gyjhhge696.execute-api.eu-west-2.amazonaws.com/Prod`,
-  ccpUrl: 'https://ccaas-voice-demo.my.connect.aws/ccp-v2', // optional - for reference
+  apiGatewayEndpoint: `<END POINT URL>`,
+  ccpUrl: '<CCP URL>', // optional - for reference
 };
 
 export default ENDPOINTS;
